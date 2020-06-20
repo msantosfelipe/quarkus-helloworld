@@ -1,14 +1,14 @@
-#Hello world with Quarkus
+Hello world with Quarkus
 https://github.com/quarkusio/quarkus
+https://www.baeldung.com/quarkus-io
+https://simply-how.com/quarkus-vs-spring
 
-##Following the tutorial:
+Following the tutorial:
 https://medium.com/@marcus.paulo/tutorial-criando-um-crud-utilizando-quarkus-java-rest-cdi-panache-hibernate-com-postgres-59793e0d7162
 https://medium.com/@marcus.paulo/tutorial-quarkus-simplificando-o-hibernate-utilizando-panache-criando-uma-aplica%C3%A7%C3%A3o-simples-393134a58073
 
 
-
-
-####Create a Quarkus project:
+Create a Quarkus project:
 https://code.quarkus.io/
 mvn io.quarkus:quarkus-maven-plugin:1.0.1.Final:create \
      -DprojectGroupId=br.com.food \
@@ -16,7 +16,7 @@ mvn io.quarkus:quarkus-maven-plugin:1.0.1.Final:create \
      -DclassName="br.com.car.resource.FoodResource" \
      -Dpath="/food"
 
-####Execute the project:
+Execute the project:
 mvn compile quarkus:dev
 
 
